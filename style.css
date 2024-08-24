@@ -358,6 +358,7 @@ h3 {
   box-shadow: 1px 8px 10px 2px var(--first-shadow-color);
   overflow: hidden;
   padding: 30px;
+  margin: auto;
   text-decoration: none; /* Remove underline */
   color: inherit; /* Inherit color from parent */
 }
@@ -508,7 +509,7 @@ footer {
   }
 }
 
-@media (max-width: 900px) {
+@media (max-width: 1000px) {
   .nav-button {
     display: none;
   }
@@ -595,7 +596,7 @@ footer {
     justify-content: center;
   }
   .project-box {
-    width: 80%;
+    width: 100%;
   }
 }
 
