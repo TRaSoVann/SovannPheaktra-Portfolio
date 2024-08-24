@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <title>Sovann Pheaktra | Personal Portfolio</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <nav id="header">
+        <div class="nav-logo">
+          <img src="Image/logo.png" alt="Logo" />
+        </div>
+        <div class="nav-menu" id="myNavMenu">
+          <ul class="nav_menu_list">
+            <li class="nav_list">
+              <a href="#home" class="nav-link active">Home</a>
+              <div class="circle"></div>
+            </li>
+            <li class="nav_list">
+              <a href="#about" class="nav-link">About</a>
+              <div class="circle"></div>
+            </li>
+            <li class="nav_list">
+              <a href="#projects" class="nav-link">Projects</a>
+              <div class="circle"></div>
+            </li>
+            <li class="nav_list">
+              <a href="#contact" class="nav-link">Contact</a>
+              <div class="circle"></div>
+            </li>
+          </ul>
+        </div>
+        <div class="nav-button">
+          <button class="btn">
+            Download CV <i class="fa-regular fa-file"></i>
+          </button>
+        </div>
+        <div class="nav-menu-btn">
+          <i class="fa-solid fa-bars" onclick="myMenuFunction()"></i>
+        </div>
+      </nav>
+
+      <main class="wrapper">
+        <section class="featured-box" id="home">
+          <div class="featured-text">
+            <div class="featured-text-card">
+              <span>Sovann Pheaktra</span>
+            </div>
+            <div class="featured-name">
+              <p>I'm <span class="typedText"></span></p>
+            </div>
+            <div class="featured-text-info">
+              <p>
+                Experienced frontend developer with a passion for creating
+                visually stunning and user-friendly websites.
+              </p>
+            </div>
+            <div class="featured-text-btn">
+              <button class="btn blue-btn">Hire Me</button>
+              <button class="btn">
+                Download CV <i class="fa-regular fa-file"></i>
+              </button>
+            </div>
+            <div class="social_icons">
+              <div class="icon">
+                <i class="fa-brands fa-square-instagram"></i>
+              </div>
+              <div class="icon"><i class="fa-brands fa-facebook"></i></div>
+              <div class="icon"><i class="fa-brands fa-telegram"></i></div>
+              <div class="icon"><i class="fa-brands fa-github"></i></div>
+            </div>
+          </div>
+          <div class="featured-image">
+            <div class="image">
+              <img src="Image/Body Image.png" alt="avatar" />
+            </div>
+          </div>
+          <div class="scroll-icon-box">
+            <a href="#about" class="scroll-btn">
+              <i class="uil uil-mouse-alt"></i>
+              <p>Scroll Down</p>
+            </a>
+          </div>
+        </section>
+        <!-- ABOUT -->
+        <section class="section" id="about">
+          <div class="top-header">
+            <h1>About Me</h1>
+          </div>
+          <div class="row">
+            <div class="col">
+              <div class="about-info">
+                <h3>My introduction</h3>
+                <p>
+                  I am well-versed in HTML, CSS and JavaScript, and other
+                  cutting edge framworks and libraries,which allows me to
+                  implement interactive features.Additionally, I have experience
+                  working with content management systems (CMS) like wordpress
+                </p>
+              </div>
+            </div>
+            <div class="col">
+              <div class="skills-box">
+                <div class="skills-header">
+                  <h3>Frontend</h3>
+                </div>
+                <div class="skills-list">
+                  <span><i class="fa-brands fa-html5"></i> HTML</span>
+                  <span><i class="fa-brands fa-css3"></i> CSS</span>
+                  <span><i class="fa-brands fa-css3"></i> Tailwind CSS</span>
+                  <span><i class="fa-brands fa-js"></i> JavaScript</span>
+                  <span><i class="fa-brands fa-react"></i> React Js</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- PROJECTS -->
+        <section class="section" id="projects">
+          <div class="top-header">
+            <h1>Projects</h1>
+          </div>
+          <div class="project-container">
+            <a
+              href="https://example.com/project1"
+              class="project-box"
+              target="_blank"
+            >
+            <img src="Image/HD Thumbnail.jpg" alt="Thumbnail" />
+              <h3>React Portfolio Using Redux custom hook</h3>
+              <label
+                >Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Repellat neque totam reiciendis harum dolorem dolore nobis
+                corrupti facere magnam recusandae deserunt, officiis consequatur
+                in laudantium eaque iste sequi, culpa alias.</label
+              >
+              <div class="skills-list">
+                <span><i class="fa-brands fa-html5"></i> HTML</span>
+                <span><i class="fa-brands fa-css3"></i> CSS</span>
+              </div>
+            </a>
+            <a
+              href="https://example.com/project2"
+              class="project-box"
+              target="_blank"
+            >
+              <img src="Image/HD Thumbnail.jpg" alt="Thumbnail" />
+              <h3>React Portfolio Using Redux custom hook</h3>
+              <label
+                >Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Repellat neque totam reiciendis harum dolorem dolore nobis
+                corrupti facere magnam recusandae deserunt, officiis consequatur
+                in laudantium eaque iste sequi, culpa alias.</label
+              >
+              <div class="skills-list">
+                <span><i class="fa-brands fa-html5"></i> HTML</span>
+                <span><i class="fa-brands fa-css3"></i> CSS</span>
+              </div>
+            </a>
+            <a
+              href="https://example.com/project3"
+              class="project-box"
+              target="_blank"
+            >
+            <img src="Image/HD Thumbnail.jpg" alt="Thumbnail" />
+              <h3>React Portfolio Using Redux custom hook</h3>
+              <label
+                >Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Repellat neque totam reiciendis harum dolorem dolore nobis
+                corrupti facere magnam recusandae deserunt, officiis consequatur
+                in laudantium eaque iste sequi, culpa alias.</label
+              >
+              <div class="skills-list">
+                <span><i class="fa-brands fa-html5"></i> HTML</span>
+                <span><i class="fa-brands fa-css3"></i> CSS</span>
+              </div>
+            </a>
+          </div>
+        </section>
+      </main>
+      <!-- CONTACT BOX -->
+      <footer id="contact">
+        <div class="top-header">
+          <h1>Find Me</h1>
+        </div>
+        <div class="top-footer">
+          <p>Sovann Pheaktra.</p>
+        </div>
+        <div class="middle-footer">
+          <ul class="footer-menu">
+            <li class="footer_menu_list">
+              <a href="#"
+                ><i class="fa-regular fa-envelope"></i> Email :
+                Sovannpheaktra14@gmail.com</a
+              >
+            </li>
+            <li class="footer_menu_list">
+              <a href="#"
+                ><i class="fa-solid fa-phone"></i
+                ></i> Tel : 017 531 523</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="footer-social-icons">
+          <div class="icon">
+            <i class="fa-brands fa-square-instagram"></i>
+          </div>
+          <div class="icon"><i class="fa-brands fa-facebook"></i></div>
+          <div class="icon"><i class="fa-brands fa-telegram"></i></div>
+          <div class="icon"><i class="fa-brands fa-github"></i></div>
+        </div>
+        <div class="bottom-footer">
+          <p>
+            Copyright &copy;
+            <a href="#home" style="text-decoration: none">Sovann Pheaktra</a> -
+            All rights reserve
+          </p>
+        </div>
+      </footer>
+    </div>
+    <script src="main.js"></script>
+    <!-- Add Type js -->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <!-- Add Scrollreveal  -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+  </body>
+</html>
